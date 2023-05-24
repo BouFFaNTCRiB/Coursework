@@ -16,7 +16,7 @@ if __name__ == "__main__":
         print('wrong file type')
         exit(1)
     text = open(inp, 'r').read()
-    openai.api_key = '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'
+    openai.api_key = ''
 
     response = openai.Completion.create(
       model="text-davinci-003",
